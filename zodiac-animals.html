@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<style>
+			body{
+				background-color:#138D75;
+			}
+			h1{
+				margin:70px;
+				font:Arial,serif;
+				font-size:50px;
+				color:#FADBD8;
+				text-align:center;
+			}
+			form{
+				margin: 0 auto;
+				width: 250px;
+				font-size: 20px;
+			}
+			
+			form div {
+				padding: 20px 0;
+			}
+			input[number]{
+				width:200px;
+				padding:20px 20px
+				border:20px;
+			}
+			input[submit]{
+				width:100px;
+			}
+			.information h2 {
+				font-size:30px;
+				color: black;
+				text-align: center;
+			}
+			.information img {
+				width: 200px;
+				margin: 0 auto;
+				display: block;
+			}
+			.information p {
+				font-size: 18px;
+				color: lightBrown;
+				text-align: center;
+			}
+			.information {
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>What Is Your Zodiac Animal Sign?</h1>
+		<form class = 'yearOfBirth'>
+			<div>Year Of Your Birth (eg:2008)</div>
+			<input class = 'yearValue' type="number">
+			<input type="submit" value="Submit">
+		</form>
+		<div class='information'>
+			<h2></h2>
+			<img/>
+			<p></p>
+		</div>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<script src='./zodiacApp.js'></script>
+	</body>
+
+
+</html>
